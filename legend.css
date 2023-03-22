@@ -1,0 +1,120 @@
+#firstpage
+{
+    font-family:'lucida grande' ,tahoma, verdana, arial, sans-serif;
+    background-color:#000000;
+	text-align: center; 
+}
+
+#container
+{
+    width: 1080px;
+    margin:0 auto;
+    padding:20px;
+    background-color:#000;
+}
+
+
+#banner
+{
+    height:295px;
+    background-image:url(Images/lower_pict.jpg);
+    background-size:cover;
+}
+#HeaderLogo
+{
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+/*============================NAVIGATION MENU=======================*/
+#navigation{
+    height:60px;
+    border:3px solid #e3e3e3;
+    margin-top:5px;
+    background-image:url(Images/background_pict.png);
+}
+ul#navmenu{
+    list-style-type: none;
+    font-size: 20px;
+}
+ul#navmenu li{
+    width: 200px;
+    text-align: center;
+    float: left;        
+    margin-right: 4px;
+}
+ul#navmenu a {
+    text-decoration: none;
+    display: block; 
+    width: 180px;
+    height: 25px;
+    line-height: 25px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+/*=========================CONTENT IMAGE===================================*/
+p{
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+
+.imgLeft{
+    float: left;
+    margin: 0px 10px 10px 0;
+    padding: 5px;   
+} 
+.imgRight{
+    float: right;
+    margin: 0px 10px 10px 0;
+    padding: 5px;   
+}
+     
+#content_area
+{
+    float:left;
+    width:750px;
+    margin:20px 0 20px 0;
+    padding:10px;
+    border:3px solid #e3e3e3;
+    color:white;
+}
+#sidebar
+{
+    float:right;
+    width:250px;
+    height:875px;
+    margin:20px 10px 20px 10px;
+    border:3px solid #e3e3e3;
+}
+/*==================================Footer===============================================*/
+#footer
+{
+    clear:both;
+    width:auto;
+    height:20px;
+    padding:20px;
+    background-image:url(Images/background_pict.png);
+    text-align: center;
+    color: #000;
+    
+}
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+ 
